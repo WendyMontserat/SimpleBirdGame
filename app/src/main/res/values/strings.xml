@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Avispiro</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_categories">Categories</string>
+    <string name="action_my_birds">My Birds</string>
+    <string name="add_bird_name_text">Name</string>
+    <string name="add_bird_description_text">Description</string>
+    <string name="add_bird_place_text">Place seen</string>
+    <string name="add_bird_category_text">Category</string>
+    <string name="add_bird_time_text">Time</string>
+    <string name="add_bird_image_text">Image</string>
+    <string name="add_bird_title_text">Add Bird</string>
+    <string name="add_bird_button_text">Add Bird</string>
+    <string name="edit_bird_title_text">Edit Bird</string>
+    <string name="edit_bird_positive_button">Update</string>
+    <string name="edit_bird_neutral_button">Cancel</string>
+    <string name="edit_bird_negative_button">Delete</string>
+    <string name="delete_bird_title">Are You Sure?</string>
+    <string name="delete_bird_positive_button">Delete</string>
+    <string name="delete_bird_negative_button">Keep!</string>
+    <string name="delete_bird_message">Continuing with this action will permanently delete this bird from your Avispiro app. This cannot be undone.</string>
+    <string name="delete_birds_message">Continuing with this action will permanently delete every bird from your Avispiro app. This cannot be undone.</string>
+    <string name="category_name_default">Uncategorized</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="add_category_dialog_message">Add Category</string>
+    <string name="add_category_positive_button">Add</string>
+    <string name="add_category_negative_button">Cancel</string>
+    <string name="title_activity_info">Bird Detail</string>
+    <string name="title_activity_start">My Birds</string>
+    <string name="title_activity_picture">View Image</string>
+    <string name="edit_category_title_text">Edit Category</string>
+    <string name="edit_category_positive_button">Update</string>
+    <string name="edit_category_neutral_button">Cancel</string>
+    <string name="edit_category_negative_button">Delete</string>
+    <string name="edit_category_invalid_message">Invalid category name.</string>
+    <string name="delete_category_title">Are you sure?</string>
+    <string name="delete_category_message">Continuing with this action will permanently delete this category from your Avispiro app. No birds will be deleted, however. Every bird which is a member of this category will become uncategorized. This cannot be undone.</string>
+    <string name="delete_category_positive_button">Delete</string>
+    <string name="delete_category_negative_button">Keep!</string>
+    <string name="delete_category_success_message">Category deleted.</string>
+    <string name="image_selected">Selected</string>
+    <string name="photo_taken">From Camera</string>
+    <string name="image_selected_error">Something went wrong.</string>
+    <string name="image_missing_error">You didn\'t choose a photo.</string>
+    <string name="bird_added_success">Bird added.</string>
+    <string name="bird_added_error">You must give your bird a name.</string>
+    <string name="category_added_error">You must give your category a name.</string>
+    <string name="category_added_success">Category added.</string>
+    <string name="bird_deleted_success">Bird deleted.</string>
+    <string name="bird_info_share_message">Choose an app to share with.</string>
+    <string name="bird_info_share_name">My bird\'s name is </string>
+    <string name="bird_info_share_place">Seen at </string>
+    <string name="bird_info_share_time">Found on </string>
+    <string-array name="settingsStringList">
+        <item>Release Your Birds</item>
+        <item>Completely Reset</item>
+    </string-array>
+    <string name="categoryLabel">Category:</string>
+</resources>

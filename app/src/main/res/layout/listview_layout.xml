@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview_layout"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <!--
+        Source: https://www.viralandroid.com/2016/02/android-listview-with-image-and-text.html
+        Purpose: Customizing Listview UI
+    -->
+    <ImageView
+        android:id="@+id/imageBird"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:adjustViewBounds="true"
+        android:minHeight="70dp"
+        android:minWidth="70dp"
+        android:scaleType="fitCenter"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameText"
+            android:text="hi"
+            android:textSize="@dimen/generalText"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            android:text="arb"
+            android:id="@+id/timeText" />
+    </LinearLayout>
+
+</LinearLayout>
